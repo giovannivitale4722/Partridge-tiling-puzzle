@@ -1,5 +1,6 @@
 {
   "name": "partridge-tiling-puzzle",
+  "homepage": "https://giovannivitale4722.github.io/partridge-tiling-puzzle",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,13 +8,15 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
-    "@vercel/analytics": "^1.1.1",
-    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@vercel/analytics": "^1.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
@@ -27,4 +30,4 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
-}
+} 
