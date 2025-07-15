@@ -4,7 +4,7 @@ An interactive React application for solving tiling puzzles inspired by the Jane
 
 ## Live Demo
 
-**[View Live Demo Here](https://giovannivitale4722.github.io/partridge-tiling-puzzle/)** 
+**[View Live Demo Here](https://giovannivitale4722.github.io/Partridge-tiling-puzzle/)** 
 
 ## Features
 
